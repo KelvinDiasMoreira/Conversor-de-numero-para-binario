@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+
+
+body{
+    background-color: rgba(0, 0, 0, 0.89);
+    font-family: 'Roboto', sans-serif;
+}
+
+h2{
+    padding-top: 1rem;
+    color: black;
+    text-align: center;
+}
+input#numero_digitado{
+    text-align: center;
+    margin-left: 16rem;
+    font-size: 1rem;
+    box-shadow: black;
+
+}
+button{
+    font-size: 1.2rem;
+    width: 10rem;
+    border: none;
+    background-color: rgb(138, 165, 42);
+    box-shadow: inset 0 0 0 0 rgb(72, 255, 0,);
+    transition: ease-out 0.3s;
+    border-radius: 1rem;
+    cursor: pointer;
+
+}
+button:hover{
+    box-shadow: inset 160px 0 0 0 rgb(72, 255, 0);
+}
+
+p{
+    color: black;
+    margin-left: 8rem;
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+div{
+    background-color: white;
+    margin-top: 12rem;
+    margin-left: 17rem;
+    width: 50rem;
+    border-radius: 2rem;
+    box-shadow: 0px 2px 2px blue;
+}
